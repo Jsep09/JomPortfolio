@@ -60,7 +60,7 @@ export default function About() {
               sm={12}
               md={6}
               display="flex"
-              justifyContent="center"
+              justifyContent={{ xs: "center", md: "right" }}
             >
               <div className="img">
                 <img src={me3} className="img-me" />
